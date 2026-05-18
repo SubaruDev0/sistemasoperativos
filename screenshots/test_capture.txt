@@ -1,0 +1,40 @@
+=== CAPTURA DE PRUEBA - myshell (Taller 1 - Sistemas Operativos) ===
+Fecha: 17 de mayo de 2026
+
+Prueba 1: Comandos básicos (ls, pwd, echo)
+Prueba 2: Comando inexistente (manejo de error)
+Prueba 3: Entrada vacía (Enter sin comando)
+Prueba 4: Salida con exit
+
+=== SESIÓN COMPLETA ===
+
+myshell> ls
+doc  Informe_Taller1_SistemasOperativos.docx  myshell  screenshots  shell.c
+
+myshell> pwd
+/home/subaru/Escritorio/Proyectos/sistemasoperativos
+
+myshell> echo "Hola, mundo desde myshell!"
+"Hola, mundo desde myshell!"
+
+myshell> echo Probando argumentos multiple palabra tras palabra
+Probando argumentos multiple palabra tras palabra
+
+myshell> whoami
+subaru
+
+myshell> uname -a
+Linux subaru 6.17.0-14-generic #14~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Jan 15 15:52:10 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+
+myshell> comando_inventado
+myshell: comando_inventado: No such file or directory
+
+myshell> Saliendo de myshell...
+
+=== PRUEBA DE ENTRADA VACÍA ===
+(Enter presionado sin comando → el prompt se reimprime)
+
+myshell> myshell> myshell> exit
+Saliendo de myshell...
+
+=== RESULTADO: TODAS LAS PRUEBAS PASARON EXITOSAMENTE ===

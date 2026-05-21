@@ -53,17 +53,16 @@ gcc -Wall -Wextra -o myshell shell.c
 ```
 sistemasoperativos/
 ├── shell.c                          # Código fuente
-├── Informe_Taller1_SistemasOperativos.docx  # Informe del taller
 ├── Makefile                         # Compilación automatizada
 ├── README.md                        # Este archivo
 ├── .gitignore                       # Ignorar ejecutable
-├── doc/
-│   └── shell_documentacion.md       # Documentación detallada del código
 └── screenshots/
     ├── 01_compilacion.png
     ├── 02_comandos_basicos.png
     ├── 03_comando_exit.png
     ├── 04_comando_inexistente.png
     ├── 05_enter_vacio.png
-    └── 06_sesion_completa.png
+    ├── 06_sesion_completa.png
+    └── 07_ejecucion_foreground.png
+
 ```

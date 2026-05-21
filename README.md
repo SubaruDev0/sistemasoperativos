@@ -1,6 +1,6 @@
 # myshell — Intérprete de Comandos Simple
 
-Taller 1 — Sistemas Operativos · Universidad del Bío-Bío · 2026
+Taller 1 — Sistemas Operativos
 
 ## Descripción
 
@@ -12,11 +12,6 @@ Taller 1 — Sistemas Operativos · Universidad del Bío-Bío · 2026
 - Ignacio Barra
 - Carlos Bastidas
 - Matias Salazar
-
-## Requisitos
-
-- Compilador GCC
-- Sistema operativo Linux/Unix
 
 ## Compilación
 
